@@ -1,0 +1,92 @@
+.card-grey {
+	background-color: rgb(196, 193, 193);
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 7px 16px;
+	text-align: center;
+	border-radius: 7px;
+	margin: 10px;
+	height: 160px;
+}
+
+.card-blue {
+	background-color: white;
+}
+
+.time {
+	padding: 0 5px;
+	font-weight: 600;
+}
+
+.event-name {
+	font-size: large;
+	font-weight: 700;
+	margin-bottom: 18px;
+	margin-top: 10px;
+}
+
+.button {
+	cursor: pointer;
+	background-color: rgb(96, 174, 216);
+	border: none;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: aliceblue;
+	border-radius: 4px;
+	position: relative;
+}
+
+.remove {
+	background-color: red !important;
+}
+
+@media only screen and (max-width: 1232px) {
+	.time {
+		padding: 0 3px;
+		font-weight: 600;
+		font-size: 12px;
+	}
+	.event-name {
+		font-size: medium;
+		margin-top: 5px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.time {
+		padding: 0 3px;
+		font-weight: 600;
+		font-size: 15px;
+	}
+	.event-name {
+		font-size: medium;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.time {
+		padding: 0 3px;
+		font-weight: 600;
+		font-size: 12px;
+	}
+	.event-name {
+		font-size: small;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.time {
+		padding: 0 3px;
+		font-weight: 600;
+		font-size: 16px;
+	}
+	.event-name {
+		font-size: medium;
+		margin-top: 5px;
+	}
+}

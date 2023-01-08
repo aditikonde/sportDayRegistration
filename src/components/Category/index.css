@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    padding-bottom: 15px;
+    margin: 0 -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
